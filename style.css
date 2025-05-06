@@ -124,6 +124,16 @@ img {
   }
 }
 
+@media (max-width: 450px) {
+  html {
+    font-size: 7px;
+  }
+
+  .container {
+    max-width: 80%;
+  }
+}
+
 @media (max-width: 425px) {
   html {
     font-size: 6px;
